@@ -1,0 +1,33 @@
+torch>=1.9.0
+numpy
+scipy
+soundfile
+librosa
+tqdm
+pyyaml
+matplotlib
+
+# Text processing
+g2p_en
+g2pk
+jamo
+inflect
+unidecode
+num2words
+
+# Audio / speech
+pyworld
+pycwt
+kaldiio
+parallel_wavegan
+resampy
+
+# ML utilities
+einops
+humanfriendly
+joblib
+six
+
+# Mamba (optional - requires CUDA)
+# mamba_ssm
+# causal_conv1d

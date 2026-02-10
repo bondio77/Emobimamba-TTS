@@ -34,8 +34,8 @@ from nets.transformer.encoder import (
 
 
 
-from torch_utils.device_funcs import force_gatherable
-from torch_utils.initialize import initialize
+from utils.torch_utils.device_funcs import force_gatherable
+from utils.torch_utils.initialize import initialize
 from tts.fastspeech2.duration_processing import average_by_duration, pad_sequences
 from tts.abs_tts import AbsTTS
 from tts.fastspeech2.loss import FastSpeech2Loss

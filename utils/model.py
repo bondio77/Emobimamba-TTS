@@ -7,14 +7,14 @@ import numpy as np
 
 from pathlib import Path
 from os.path import join
-from optimizers.sgd import SGD
+from training.optimizers.sgd import SGD
 from utils import config_argparse
 from utils.types import str2bool
 from utils.types import str_or_none
 from utils.types import int_or_none
 from utils.types import str2triple_str
-from schedulers.noam_lr import NoamLR
-from schedulers.warmup_lr import WarmupLR
+from training.schedulers.noam_lr import NoamLR
+from training.schedulers.warmup_lr import WarmupLR
 from distutils.version import LooseVersion
 from tts.fastspeech2.fastspeech2 import FastSpeech2
 from nets.intensity_extractor.model_enhance import RankModel
