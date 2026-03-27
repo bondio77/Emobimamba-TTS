@@ -1,4 +1,4 @@
-# EGCA Speech Synthesis
+# Emobimamba-TTS
 
 Emotional speech synthesis based on FastSpeech2 with **Emotion-Guided Context Attention (EGCA)** and **Mamba** architecture. Supports emotion intensity control (min / med / max) for expressive TTS.
 
